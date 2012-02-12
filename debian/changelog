@@ -1,7 +1,7 @@
 php-horde-form (1.0.6-1) unstable; urgency=low
 
   * Horde_Form package
-  * Initial packaging (Closes: #nnnnnn)
+  * Initial packaging (Closes: #657359)
   * Copyright file by Soren Stoutner and Jay Barksdale
 
- -- Mathieu Parent <sathieu@debian.org>  Sat, 11 Feb 2012 14:50:52 +0100
+ -- Mathieu Parent <sathieu@debian.org>  Sun, 12 Feb 2012 14:58:29 +0100
