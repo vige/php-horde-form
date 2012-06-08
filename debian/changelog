@@ -1,4 +1,4 @@
-php-horde-form (1.0.6-2) UNRELEASED; urgency=low
+php-horde-form (1.1.0-1) UNRELEASED; urgency=low
 
   * Fixed watchfile
   * Updated Standards-Version to 3.9.3: no change
@@ -6,8 +6,9 @@ php-horde-form (1.0.6-2) UNRELEASED; urgency=low
   * Updated debian/pearrc to install Horde apps in /usr/share/horde
     instead of /usr/share/horde4
   * Updated Vcs-* fields
+  * New upstream version 1.1.0
 
- -- Mathieu Parent <sathieu@debian.org>  Thu, 07 Jun 2012 18:12:49 +0200
+ -- Mathieu Parent <sathieu@debian.org>  Fri, 08 Jun 2012 17:19:18 +0200
 
 php-horde-form (1.0.6-1) unstable; urgency=low
 
