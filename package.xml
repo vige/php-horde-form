@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_Form</name>
  <channel>pear.horde.org</channel>
  <summary>Horde Form API</summary>
@@ -16,11 +16,11 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2012-01-17</date>
- <time>12:20:02</time>
+ <date>2012-04-10</date>
+ <time>19:28:28</time>
  <version>
-  <release>1.0.6</release>
-  <api>1.0.0</api>
+  <release>1.1.0</release>
+  <api>1.1.0</api>
  </version>
  <stability>
   <release>stable</release>
@@ -28,7 +28,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [mms] SECURITY: Fix XSS vulnerability in email validation.
+* [jan] Add parameters to specify field size of phone and email fields.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -48,7 +48,7 @@
    <file baseinstalldir="/" md5sum="507c6cb3ea7f4e638892a3c20499b292" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="1c210ba218d19aa6f8e32aef887eb11c" name="lib/Horde/Form/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="862c662a823e279475e3b060b65865d5" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="13fbad2dd59e3ec663db64726b261e00" name="lib/Horde/Form/Variable.php" role="php" />
    <file baseinstalldir="/" md5sum="c775ca42706e51ba93f875f37eca4a58" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="3ec923687dd749c32b15568d03cf73a4" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -65,14 +65,14 @@
    <file baseinstalldir="/" md5sum="43f8717e40568dbd09036f4b55a84310" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="6fe15616f8919cce7e8d2c430d569a8d" name="locale/en/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="31a313b3606aee914b56afbfd8fa9d2b" name="locale/en/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="059c0d3572174b77f9ae041705768dfd" name="locale/es/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="41319f49bea4d9714694ad33459f02b7" name="locale/es/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="e7ab85a490b71052244e546f4335b993" name="locale/es/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="d4f3acefe728c43e13243b5729315044" name="locale/es/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="aede694f34f31222c7c15e63ad7be8a7" name="locale/et/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="23d39931f150d94ab9f62254d04b57e9" name="locale/et/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="50762aa80d36a2354261b4453606f02c" name="locale/eu/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="a146750c99065b60f35c6befd1f0232c" name="locale/fa/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="6a05ab8218d9f9c85bb5d3c10c927ca3" name="locale/fi/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="c0a797767e4bfebbb762fbb1e5531e73" name="locale/fi/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="2c9ceeb280a0b53d1704cfff9a1d6270" name="locale/fi/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="56ecd1d2ada215e239c875f0f1b67594" name="locale/fi/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="0fac0d932febab1821ca8727c653aac8" name="locale/fr/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="00491ceed16c038154159b890384cd70" name="locale/fr/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="5da732a700f8f0c6e5d9116299c409d0" name="locale/gl/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -124,7 +124,7 @@
    <file baseinstalldir="/" md5sum="7b89920d1db89191601a171319d7f83e" name="locale/uk/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="419876fa2c850baa046ffa196b0fcbda" name="locale/zh_CN/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="9449d90c1b222d21a4db8979a946c352" name="locale/zh_TW/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="248b8783a64e52191d16b1a744cfbd7c" name="locale/Horde_Form.pot" role="data" />
+   <file baseinstalldir="/" md5sum="b1baf27497171095236eeec9895157d9" name="locale/Horde_Form.pot" role="data" />
    <file baseinstalldir="/" md5sum="6dda3e8554e8fe1b90dd36c7f79989c7" name="test/Horde_Form_Type_address.phpt" role="test" />
    <file baseinstalldir="/" md5sum="efd5be0cc288fbb2e04148c0bc6f5e33" name="test/Horde_Form_Type_email.phpt" role="test" />
   </dir>
@@ -487,6 +487,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [mms] SECURITY: Fix XSS vulnerability in email validation.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-04-10</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Add parameters to specify field size of phone and email fields.
    </notes>
   </release>
  </changelog>
