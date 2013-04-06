@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2013-01-09</date>
- <time>15:18:58</time>
+ <date>2013-01-29</date>
+ <time>12:34:48</time>
  <version>
-  <release>2.0.2</release>
+  <release>2.0.3</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,7 +28,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Add Basque translation (Ibon Igartua &lt;ibon.igartua@ehu.es&gt;).
+* [jan] Update French translation (Paul De Vlieger &lt;paul.de_vlieger@moniut.univ-bpclermont.fr&gt;).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -46,7 +46,7 @@
    <file baseinstalldir="/" md5sum="bea34c4b6d92d3fd0b7ca40fa75e07e0" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="b8330a4ca07a57ebe01c999cf2a37874" name="lib/Horde/Form/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="33b1b9feb863ae0e3299edfab7effaa1" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="13fbad2dd59e3ec663db64726b261e00" name="lib/Horde/Form/Variable.php" role="php" />
    <file baseinstalldir="/" md5sum="2d54fab3a94be70163cf60e9d4ef7ad1" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="67315116507940f0bdd1cc41b021deba" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -57,8 +57,8 @@
    <file baseinstalldir="/" md5sum="c050273a895075c01a156e4cfc1e0ed9" name="locale/cs/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c3ac7bcb8f158c950be55338d30cce4f" name="locale/da/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="736bef7a185c33dfdcd63fcd1dfed6b4" name="locale/da/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="f561559a85a99a704a1e8f526b99c329" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="00a9046cdf29595ba034ddfd442d57c5" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="de614e9d34615ab87e9c67df0bd50c0d" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="e71d480899da989ac6b12efccf2a3b57" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="9c6cb64be153a862f654d7286d68b159" name="locale/el/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="cf62a6ef1b923b35fdc5e0549765357e" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="6fe15616f8919cce7e8d2c430d569a8d" name="locale/en/LC_MESSAGES/Horde_Form.mo" role="data" />
@@ -72,8 +72,8 @@
    <file baseinstalldir="/" md5sum="488d4b70d22674091be6631091282f92" name="locale/fa/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="49bf5dbec1d54691246c2a6cba60cd2a" name="locale/fi/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="1bf4e79e62bc544409fdac258518f895" name="locale/fi/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="0fac0d932febab1821ca8727c653aac8" name="locale/fr/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="8364d52fc22406aea9b6a963c0b969d3" name="locale/fr/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="af54ce8adefed89ea726369d34873a0a" name="locale/fr/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="02ce2bbc1a5dba94501f27bd748f0a2d" name="locale/fr/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="6772703bc79ddca6d52f91a07d9795f1" name="locale/gl/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="18bab2611831a2aa5c5027dc0bf6d9ac" name="locale/he/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="002dec860ab2fecd373cec8a68a2156e" name="locale/he/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -123,7 +123,7 @@
    <file baseinstalldir="/" md5sum="3f4f29332a746d3357f50bda0a53fe1a" name="locale/uk/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="ca7f9c6a5036ba01cd36c447b23c9696" name="locale/zh_CN/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="8d42c7f86ec9611469036239bab03494" name="locale/zh_TW/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="03d1e6cfedbfa9e13a7e330a9e25a99d" name="locale/Horde_Form.pot" role="data" />
+   <file baseinstalldir="/" md5sum="a3ba15e47a6f5e245e8d677a991ce3f1" name="locale/Horde_Form.pot" role="data" />
    <file baseinstalldir="/" md5sum="00f3380cab8e4a20aa23ba5e00d437f7" name="test/Horde_Form_Type_address.phpt" role="test" />
    <file baseinstalldir="/" md5sum="62a455f9efff6d6461a87c5654316973" name="test/Horde_Form_Type_email.phpt" role="test" />
   </dir>
@@ -645,6 +645,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Add Basque translation (Ibon Igartua &lt;ibon.igartua@ehu.es&gt;).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.3</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-01-29</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Update French translation (Paul De Vlieger &lt;paul.de_vlieger@moniut.univ-bpclermont.fr&gt;).
    </notes>
   </release>
  </changelog>
