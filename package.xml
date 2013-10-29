@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2013-06-27</date>
- <time>09:59:56</time>
+ <date>2013-10-24</date>
+ <time>23:31:25</time>
  <version>
-  <release>2.0.5</release>
+  <release>2.0.6</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,7 +28,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [mms] Use changed behavior of &apos;_formvars&apos; in Horde_Variables.
+* [mms] Remove duplicate constructor.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -48,7 +48,7 @@
    </file>
    <file baseinstalldir="/" md5sum="33b1b9feb863ae0e3299edfab7effaa1" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="13fbad2dd59e3ec663db64726b261e00" name="lib/Horde/Form/Variable.php" role="php" />
-   <file baseinstalldir="/" md5sum="2d54fab3a94be70163cf60e9d4ef7ad1" name="lib/Horde/Form.php" role="php" />
+   <file baseinstalldir="/" md5sum="b7b647fe632a7afede4d1c6b5968810b" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="67315116507940f0bdd1cc41b021deba" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="722e41218aba7e4c0adbf7d04343c29c" name="locale/bg/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="590a9cac4eebcdd465dced06289e1f71" name="locale/bs/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -694,6 +694,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [mms] Use changed behavior of &apos;_formvars&apos; in Horde_Variables.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.6</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-10-25</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [mms] Remove duplicate constructor.
    </notes>
   </release>
  </changelog>
