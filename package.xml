@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2014-03-03</date>
- <time>17:52:14</time>
+ <date>2014-04-03</date>
+ <time>16:15:24</time>
  <version>
-  <release>2.0.7</release>
+  <release>2.0.8</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,7 +28,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Don&apos;t submit disabled fields.
+*
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -55,8 +55,8 @@
    <file baseinstalldir="/" md5sum="e54396d0f401619a0bbd9a70a9d21b3b" name="locale/ca/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c6aad26bd09b366cc794202bc59673d2" name="locale/cs/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="3251b2d1b90146a4a85fe114c51d0f22" name="locale/cs/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="c3ac7bcb8f158c950be55338d30cce4f" name="locale/da/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="6cf22fa226642d88a259833ad82271c7" name="locale/da/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="fe8b18672b38cd1636c645602605bfef" name="locale/da/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="c518927088ddf851201e1a7c494dc940" name="locale/da/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c9a6caf9635c89e656a01fb37d096f74" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="b5fd666bfc63628dc1b6b67e7af1d907" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="9c6cb64be153a862f654d7286d68b159" name="locale/el/LC_MESSAGES/Horde_Form.mo" role="data" />
@@ -85,8 +85,8 @@
    <file baseinstalldir="/" md5sum="4d709467e3d35505b4e0c035b56446bf" name="locale/is/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c75c2d8e9fc4f00c1b090ca4de125fa0" name="locale/it/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="36192ae2cf033747ada08fe9ce529d51" name="locale/it/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="74819290b48ad6c0229fdba646a15927" name="locale/ja/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="8d21f37a6f810340a598cc7df603e362" name="locale/ja/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="f78813e9d30e54a5311c862ff2feae26" name="locale/ja/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="7cc489f694efd38c65eb30fbb1e6a5ed" name="locale/ja/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="34fd1c9c71a5071972ead366550b1e87" name="locale/km/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="ca2c8c6c760acf9cb943773d4603e6a3" name="locale/ko/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="45aa104eb40d8d971226e1c0f1e27240" name="locale/ko/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -724,6 +724,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Don&apos;t submit disabled fields.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.8</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2014-04-03</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+*
    </notes>
   </release>
  </changelog>
