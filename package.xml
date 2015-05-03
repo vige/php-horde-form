@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2014-04-03</date>
- <time>16:15:24</time>
+ <date>2015-01-08</date>
+ <time>13:01:51</time>
  <version>
-  <release>2.0.8</release>
+  <release>2.0.9</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,101 +28,99 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-*
+* [jan] Support loading translations from Composer-installed package.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="321bf41f280cf805086dd5a720b37785" name="doc/Horde/Form/COPYING" role="doc" />
-   <file baseinstalldir="/" md5sum="296d4b813c70f090eb8cfa802a725ba5" name="lib/Horde/Form/Action/ConditionalEnable.php" role="php" />
-   <file baseinstalldir="/" md5sum="6feaad6fdde4fd23e1ac5e30195ef607" name="lib/Horde/Form/Action/ConditionalSetValue.php" role="php" />
-   <file baseinstalldir="/" md5sum="dc557f4fa38c725cf929bb1e851ad6fa" name="lib/Horde/Form/Action/reload.php" role="php" />
-   <file baseinstalldir="/" md5sum="cfcd6420f81dd1477275f6f62e4e6553" name="lib/Horde/Form/Action/setcursorpos.php" role="php" />
-   <file baseinstalldir="/" md5sum="0db2ca28e6f800681aaacf8decbbc949" name="lib/Horde/Form/Action/submit.php" role="php" />
-   <file baseinstalldir="/" md5sum="5b237d168ee43576026c72f72905c2fc" name="lib/Horde/Form/Action/SumFields.php" role="php" />
-   <file baseinstalldir="/" md5sum="e391a4f795c129ee6a20692aef3a872e" name="lib/Horde/Form/Action/updatefield.php" role="php" />
+   <file baseinstalldir="/" md5sum="e593931a0b89d0dd59cb4099fec70618" name="lib/Horde/Form/Action/ConditionalEnable.php" role="php" />
+   <file baseinstalldir="/" md5sum="919381911a4148111837ecbc08d2d119" name="lib/Horde/Form/Action/ConditionalSetValue.php" role="php" />
+   <file baseinstalldir="/" md5sum="2f4ff46339d69ae17f07ce576832bd18" name="lib/Horde/Form/Action/reload.php" role="php" />
+   <file baseinstalldir="/" md5sum="b9d91b4efbbbc1541c0293c965c78863" name="lib/Horde/Form/Action/setcursorpos.php" role="php" />
+   <file baseinstalldir="/" md5sum="97d74101651162b4e82b58ef49489f7f" name="lib/Horde/Form/Action/submit.php" role="php" />
+   <file baseinstalldir="/" md5sum="ce55ef83ec25b1058096bb61cfe0aa20" name="lib/Horde/Form/Action/SumFields.php" role="php" />
+   <file baseinstalldir="/" md5sum="9ec7c76e2b029a22bbc55136bb329433" name="lib/Horde/Form/Action/updatefield.php" role="php" />
    <file baseinstalldir="/" md5sum="7cbf75b6568b0c8666f65832279ba36a" name="lib/Horde/Form/Type/tableset.php" role="php" />
    <file baseinstalldir="/" md5sum="91fd5420cb576d1123449c75871e920c" name="lib/Horde/Form/Action.php" role="php" />
    <file baseinstalldir="/" md5sum="6d77f8034cc19c2cbd5a8a0bdcf46c33" name="lib/Horde/Form/Renderer.php" role="php" />
-   <file baseinstalldir="/" md5sum="edac8185f845daf98d207d39f7d2bcdd" name="lib/Horde/Form/Translation.php" role="php">
+   <file baseinstalldir="/" md5sum="c3ef7f6a688d8588f6c06ffc241910d8" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
    <file baseinstalldir="/" md5sum="33b1b9feb863ae0e3299edfab7effaa1" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="13fbad2dd59e3ec663db64726b261e00" name="lib/Horde/Form/Variable.php" role="php" />
-   <file baseinstalldir="/" md5sum="d22b473812d2a18e210e3dacec3e4f97" name="lib/Horde/Form.php" role="php" />
-   <file baseinstalldir="/" md5sum="612cd072963dda5a4079bffd285de818" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="2db255b0d0d44ce70fdbb37f457c797a" name="locale/bg/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="4aacbc9e9875203fe845fe64cb8b7a58" name="locale/bs/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="e54396d0f401619a0bbd9a70a9d21b3b" name="locale/ca/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="51ae8b05817d3e3dc2976a6cba468930" name="lib/Horde/Form.php" role="php" />
+   <file baseinstalldir="/" md5sum="72e776b59307332d33a4020364929a82" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="0d04d0462976fa85d90edd448e96b13b" name="locale/bg/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="21431369b8e1c5345e2b2479dc7cc52b" name="locale/bs/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="23fc25138a0dc3558fc0f7c8f61eea51" name="locale/ca/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c6aad26bd09b366cc794202bc59673d2" name="locale/cs/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="3251b2d1b90146a4a85fe114c51d0f22" name="locale/cs/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="30e8a532b044fbdf11dccb754733af76" name="locale/cs/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="fe8b18672b38cd1636c645602605bfef" name="locale/da/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="c518927088ddf851201e1a7c494dc940" name="locale/da/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c9a6caf9635c89e656a01fb37d096f74" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="b5fd666bfc63628dc1b6b67e7af1d907" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="dd78df7715cc489c70a7a8ca02d7d414" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="9c6cb64be153a862f654d7286d68b159" name="locale/el/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="13f9c58a50060d61e806a2b3af756d55" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="6fe15616f8919cce7e8d2c430d569a8d" name="locale/en/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="fd5b37d85765237a886aa0c13f004805" name="locale/en/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="d2eefa92eda18731b1426b93e1cb3f81" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="72944b373715f42cf25db6e1ed752e94" name="locale/es/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="d89ccb74909a1cd28ac7c6c7cb252906" name="locale/es/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="aede694f34f31222c7c15e63ad7be8a7" name="locale/et/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="189fa38f91f15dc4299b05c4c8546d1e" name="locale/et/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="4976cc6744440216a5ab183dc045ba13" name="locale/et/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="ca3732eafa875ed9172f8dcd6eeb09ce" name="locale/eu/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="0ec1f4c8f15f28175b423cdd0f926cf3" name="locale/eu/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="2b1c9cee1ea216b46ca501aafeaa781d" name="locale/fa/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="e1e903bdc3a7ad362b61fc659fbf7c80" name="locale/eu/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="6dca47711344dcf44f0f341ef8e8b7f1" name="locale/fa/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="49bf5dbec1d54691246c2a6cba60cd2a" name="locale/fi/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="138669e4e02096a369dc380480a30644" name="locale/fi/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="79613e7f93ab4721fca922ebb80766ae" name="locale/fi/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="af54ce8adefed89ea726369d34873a0a" name="locale/fr/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="a810a2499b70bfa76dc205b6c771ad54" name="locale/fr/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="983609effbf1356db84eaa27f5fa821c" name="locale/gl/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="d061a9a41c1dd1307a2c506512cc0ee3" name="locale/fr/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="8fa8602a8e4533e34072269c72102f39" name="locale/gl/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="18bab2611831a2aa5c5027dc0bf6d9ac" name="locale/he/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="63f71e1ea7d46cf3a65188a0bb7a65ab" name="locale/he/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="4a014a7347ba4cbd0321b0fc35f776ff" name="locale/he/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="738ef46f5859bd1c1e6ab79e6e274a8d" name="locale/hr/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="de00367f1b93f6a39128e659219e99f0" name="locale/hr/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="301b9e8b7d0405f8a41db0b8c19f1a6e" name="locale/hu/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="4bc66740bf79ad1988929beae6c7697e" name="locale/hu/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="9123f6c4134986bb523c327f9c9dfd8b" name="locale/id/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="4d709467e3d35505b4e0c035b56446bf" name="locale/is/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="db23a25fece3191cc5d7906d933c4903" name="locale/hr/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="b7fa49acee0c7783ba031d7e627b8753" name="locale/hu/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="9686c1dc91f97db6f0c299f446c9106b" name="locale/hu/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="1da237c921d499fdf68e6658a8a87bbe" name="locale/id/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="6211d97f3c3b8288f57e510bb02b6930" name="locale/is/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c75c2d8e9fc4f00c1b090ca4de125fa0" name="locale/it/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="36192ae2cf033747ada08fe9ce529d51" name="locale/it/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="b594e68f5908c6d0f204e9bb047f7a2d" name="locale/it/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="f78813e9d30e54a5311c862ff2feae26" name="locale/ja/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="7cc489f694efd38c65eb30fbb1e6a5ed" name="locale/ja/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="34fd1c9c71a5071972ead366550b1e87" name="locale/km/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="99a4a44c2bc5e8ef0856415fb58e7e3f" name="locale/km/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="ca2c8c6c760acf9cb943773d4603e6a3" name="locale/ko/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="45aa104eb40d8d971226e1c0f1e27240" name="locale/ko/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="9d2681f410cea4aa13485efbaec77b3a" name="locale/ko/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="318c728b92fd5ecc85cca4adac0227f9" name="locale/lt/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="8a658a58dcdfed499e8e791fd8779be4" name="locale/lt/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="88544c9a2dd9a93187dbd39e175b7e23" name="locale/lt/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="90ce8320cfe4adf2f3e361238dfb1f9f" name="locale/lv/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="065a613b8fd73be87e153fc979ccb735" name="locale/lv/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="905d582ec99200ac8941c96338758e25" name="locale/mk/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="2bb8cd41ba0d30d4b1026c1db4fbc69e" name="locale/lv/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="f21f8518d3d4c12c6a9fa512e6e1c177" name="locale/mk/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="cf01dc10dd55b3bdec7f1c59440bb1cb" name="locale/nb/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="60a7f83365502694c1fcb675d49334a2" name="locale/nb/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="b80b13b04320e93ddd6c14b2ddd6307d" name="locale/nb/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="6fd4a73941b04fbfe4310c06530db9d1" name="locale/nl/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="ef2376e62c53627538f8888a5fae1d14" name="locale/nl/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="f9434b655b8d36b7cc02b7796298ec4d" name="locale/nl/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="0c154baeb41fa19b76e64bf24e917fa3" name="locale/nn/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="24e6f8e8eb1b05934bf3ec88a4a7b1d8" name="locale/nn/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="494143850ff42fbec2accf6d59ffda94" name="locale/nn/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="49e4de99100daac229c8f60d31bb9c45" name="locale/pl/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="3f8e1a8b02f7a704322ebca31bc84bd1" name="locale/pl/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="22c2067e62ba846fa4285a857e924eae" name="locale/pl/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="ad0f524218de15138283425e7e5cf8c4" name="locale/pt/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="8154c87c20f9564002cad75ab3b42317" name="locale/pt/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="f2ead1d6ed8b9875549428df8c72d696" name="locale/pt/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="5c9f1d73e9626b2e667e2a51e30b6364" name="locale/pt_BR/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="b4c1cbe708506bdb2b38c8b1af13962d" name="locale/pt_BR/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="789eb4225d9ea30c0477a32a5b1a8109" name="locale/pt_BR/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="5340701298092aed681a56e2f90ac347" name="locale/ro/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="6f97854b73f22657c83d5dc21cb163f0" name="locale/ro/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="2963b244784dfab2a06d92a8a2c6d2e6" name="locale/ro/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="553cb2b650f78a231acae1d241cde416" name="locale/ru/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="f16f1373405c942a8893154303df6e2a" name="locale/ru/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="6f79c2a156248ff4995b106383e510ed" name="locale/ru/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c852bc94d5b2bcd878df1df313a57197" name="locale/sk/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="4863e57bb1d84a4c0fdf02293c23fcd4" name="locale/sk/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="dce6418065cf4ba2a886e0ae8ff620a3" name="locale/sk/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="5c8c5c49c3b9aedc3c4fa2f94fc647ba" name="locale/sl/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="829dce137b62dbb2306d8da44d1c320f" name="locale/sl/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="c83ad46ccb5bca25e4598f23635752fc" name="locale/sl/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="c125bd984e714524d69b52cbfd89d3ff" name="locale/sv/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="7de957c7d8b610779a9c4cadd52bd84f" name="locale/sv/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="68fdbd27858b4498aab8d596524af4ea" name="locale/sv/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="a9481120a24e252311b287e79a2fac9e" name="locale/tr/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="29a7daa99a360e90296af7f9774eacd2" name="locale/tr/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="04ee29df01e8e530c9bf81112d5e0a65" name="locale/tr/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="5c8c65494b8567c4a50f84db50dfc778" name="locale/uk/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="e83fa80db8958d2b5b1265384fc81445" name="locale/uk/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="93997dd1d58d2078eead756228ed37be" name="locale/zh_CN/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="a36e0ff333018685768b1a0b09aefd8a" name="locale/zh_TW/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="ea32af0f340439a980917e386b2b77a7" name="locale/uk/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="4f5ab2691bbebd10f38062da1a006dd0" name="locale/zh_CN/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="692fb07d1c885897d198ff58bafc8064" name="locale/zh_TW/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="5ed9c9b27ed5d50ec0eac46b5e4d3e93" name="locale/Horde_Form.pot" role="data" />
    <file baseinstalldir="/" md5sum="00f3380cab8e4a20aa23ba5e00d437f7" name="test/Horde_Form_Type_address.phpt" role="test" />
    <file baseinstalldir="/" md5sum="62a455f9efff6d6461a87c5654316973" name="test/Horde_Form_Type_email.phpt" role="test" />
@@ -132,6 +130,8 @@
   <required>
    <php>
     <min>5.3.0</min>
+    <max>6.0.0alpha1</max>
+    <exclude>6.0.0alpha1</exclude>
    </php>
    <pearinstaller>
     <min>1.7.0</min>
@@ -188,7 +188,7 @@
    <package>
     <name>Horde_Translation</name>
     <channel>pear.horde.org</channel>
-    <min>2.0.0</min>
+    <min>2.2.0</min>
     <max>3.0.0alpha1</max>
     <exclude>3.0.0alpha1</exclude>
    </package>
@@ -234,8 +234,6 @@
    <install as="locale/de/LC_MESSAGES/Horde_Form.po" name="locale/de/LC_MESSAGES/Horde_Form.po" />
    <install as="locale/el/LC_MESSAGES/Horde_Form.mo" name="locale/el/LC_MESSAGES/Horde_Form.mo" />
    <install as="locale/el/LC_MESSAGES/Horde_Form.po" name="locale/el/LC_MESSAGES/Horde_Form.po" />
-   <install as="locale/en/LC_MESSAGES/Horde_Form.mo" name="locale/en/LC_MESSAGES/Horde_Form.mo" />
-   <install as="locale/en/LC_MESSAGES/Horde_Form.po" name="locale/en/LC_MESSAGES/Horde_Form.po" />
    <install as="locale/es/LC_MESSAGES/Horde_Form.mo" name="locale/es/LC_MESSAGES/Horde_Form.mo" />
    <install as="locale/es/LC_MESSAGES/Horde_Form.po" name="locale/es/LC_MESSAGES/Horde_Form.po" />
    <install as="locale/et/LC_MESSAGES/Horde_Form.mo" name="locale/et/LC_MESSAGES/Horde_Form.mo" />
@@ -739,6 +737,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 *
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.9</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2015-01-08</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Support loading translations from Composer-installed package.
    </notes>
   </release>
  </changelog>
