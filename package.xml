@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_Form</name>
  <channel>pear.horde.org</channel>
  <summary>Horde Form API</summary>
@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2015-07-06</date>
- <time>16:16:02</time>
+ <date>2015-07-30</date>
+ <time>22:55:38</time>
  <version>
-  <release>2.0.10</release>
+  <release>2.0.11</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,7 +28,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] SECURITY: Fixed XSS in form renderer.
+* [mjr] Prevent empty email addresses from being detected as a valid &quot;multiple&quot; email (Bug #14063).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -46,7 +46,7 @@
    <file baseinstalldir="/" md5sum="c3ef7f6a688d8588f6c06ffc241910d8" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="33b1b9feb863ae0e3299edfab7effaa1" name="lib/Horde/Form/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="48e7b1fbd5a035ad4e315cd054bbeb3a" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="7dad1004cc10c2bbe9c467c34f5ebe77" name="lib/Horde/Form/Variable.php" role="php" />
    <file baseinstalldir="/" md5sum="51ae8b05817d3e3dc2976a6cba468930" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="72e776b59307332d33a4020364929a82" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -769,6 +769,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] SECURITY: Fixed XSS in form renderer.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.11</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2015-07-31</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [mjr] Prevent empty email addresses from being detected as a valid &quot;multiple&quot; email (Bug #14063).
    </notes>
   </release>
  </changelog>
