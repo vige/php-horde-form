@@ -1,8 +1,9 @@
-php-horde-form (2.0.10-2) UNRELEASED; urgency=medium
+php-horde-form (2.0.11-1) UNRELEASED; urgency=medium
 
   * Update gbp.conf
+  * New upstream version 2.0.11
 
- -- Mathieu Parent <sathieu@debian.org>  Fri, 07 Aug 2015 09:04:08 +0200
+ -- Mathieu Parent <sathieu@debian.org>  Sat, 08 Aug 2015 10:13:21 +0200
 
 php-horde-form (2.0.10-1) unstable; urgency=medium
 
