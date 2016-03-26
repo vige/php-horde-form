@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-02-01</date>
- <time>17:15:01</time>
+ <date>2016-03-08</date>
+ <time>20:44:42</time>
  <version>
-  <release>2.0.12</release>
+  <release>2.0.13</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,9 +28,8 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Fix field types being overwritten in certain cases.
-* [jan] Allow any empty format specifiers for the monthdayyear field (Bug #14130).
-* [jan] Mark PHP 7 as supported.
+* [jan] Update Greek translation (Limperis Antonis &lt;limperis@cti.gr&gt;).
+* [mjr] Allow non-breaking space to match in a telephone field (Request #14235).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -48,7 +47,7 @@
    <file baseinstalldir="/" md5sum="d5679e7271af0a181add2df5225bef53" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="ddde26adf782ac49a31a853f7b3e0949" name="lib/Horde/Form/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="cda1b874659b5f5b0075a7a86b6419eb" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="5f8e1e5c3e5fb803dc4b51865fa509b1" name="lib/Horde/Form/Variable.php" role="php" />
    <file baseinstalldir="/" md5sum="0597249f0f9eb9b664ef02635d18c1b3" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="8a9f0fe238650e85db8d874a17ab60d4" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -61,8 +60,8 @@
    <file baseinstalldir="/" md5sum="c518927088ddf851201e1a7c494dc940" name="locale/da/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="a48a47c3e6be94d8e7e8cfc1f1ef46f2" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="e7c53364afb15001f8b7b1a1bc567151" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="9c6cb64be153a862f654d7286d68b159" name="locale/el/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="6e7200713796de11f37e4e667c8e8d2f" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="adb3a88fedd5bebe72346c05ca4c6f69" name="locale/el/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="ffa8bfd9962e910b7c13deb63a343031" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="72944b373715f42cf25db6e1ed752e94" name="locale/es/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="d89ccb74909a1cd28ac7c6c7cb252906" name="locale/es/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="aede694f34f31222c7c15e63ad7be8a7" name="locale/et/LC_MESSAGES/Horde_Form.mo" role="data" />
@@ -803,6 +802,22 @@ Converted to package.xml 2.0 for pear.horde.org
 * [jan] Fix field types being overwritten in certain cases.
 * [jan] Allow any empty format specifiers for the monthdayyear field (Bug #14130).
 * [jan] Mark PHP 7 as supported.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.13</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-03-08</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Update Greek translation (Limperis Antonis &lt;limperis@cti.gr&gt;).
+* [mjr] Allow non-breaking space to match in a telephone field (Request #14235).
    </notes>
   </release>
  </changelog>
