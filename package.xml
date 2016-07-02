@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_Form</name>
  <channel>pear.horde.org</channel>
  <summary>Horde Form API</summary>
@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-03-08</date>
- <time>20:44:42</time>
+ <date>2016-07-01</date>
+ <time>14:57:22</time>
  <version>
-  <release>2.0.13</release>
+  <release>2.0.14</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,8 +28,8 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Update Greek translation (Limperis Antonis &lt;limperis@cti.gr&gt;).
-* [mjr] Allow non-breaking space to match in a telephone field (Request #14235).
+* [mjr] Fix handling of incomplete date arrays (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
+* [mjr] Fix bug when using multiple sections (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -47,9 +47,9 @@
    <file baseinstalldir="/" md5sum="d5679e7271af0a181add2df5225bef53" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="cda1b874659b5f5b0075a7a86b6419eb" name="lib/Horde/Form/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="e5cd01fc61480c489f1950d35b44d504" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="5f8e1e5c3e5fb803dc4b51865fa509b1" name="lib/Horde/Form/Variable.php" role="php" />
-   <file baseinstalldir="/" md5sum="0597249f0f9eb9b664ef02635d18c1b3" name="lib/Horde/Form.php" role="php" />
+   <file baseinstalldir="/" md5sum="f31919f8170ad612818794fb9f06148e" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="8a9f0fe238650e85db8d874a17ab60d4" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="e0b62ec000d8a4f34a9704caaf6d5045" name="locale/bg/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="2f371746e1f1d9e5e8fda2ae35076e26" name="locale/bs/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -818,6 +818,22 @@ Converted to package.xml 2.0 for pear.horde.org
    <notes>
 * [jan] Update Greek translation (Limperis Antonis &lt;limperis@cti.gr&gt;).
 * [mjr] Allow non-breaking space to match in a telephone field (Request #14235).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.14</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-07-01</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [mjr] Fix handling of incomplete date arrays (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
+* [mjr] Fix bug when using multiple sections (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
    </notes>
   </release>
  </changelog>
