@@ -1,8 +1,8 @@
-php-horde-form (2.0.15-1) UNRELEASED; urgency=medium
+php-horde-form (2.0.15-1) unstable; urgency=medium
 
   * New upstream version 2.0.15
 
- -- Mathieu Parent <sathieu@debian.org>  Fri, 09 Sep 2016 10:31:35 +0200
+ -- Mathieu Parent <sathieu@debian.org>  Fri, 09 Sep 2016 14:54:31 +0200
 
 php-horde-form (2.0.14-1) unstable; urgency=medium
 
