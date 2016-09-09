@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.10.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_Form</name>
  <channel>pear.horde.org</channel>
  <summary>Horde Form API</summary>
@@ -16,10 +16,10 @@
   <email>jan@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-07-01</date>
- <time>14:57:22</time>
+ <date>2016-09-06</date>
+ <time>16:55:27</time>
  <version>
-  <release>2.0.14</release>
+  <release>2.0.15</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,8 +28,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [mjr] Fix handling of incomplete date arrays (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
-* [mjr] Fix bug when using multiple sections (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
+* [jan] Catch errors when checking one-time form tokens.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -49,7 +48,7 @@
    </file>
    <file baseinstalldir="/" md5sum="e5cd01fc61480c489f1950d35b44d504" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="5f8e1e5c3e5fb803dc4b51865fa509b1" name="lib/Horde/Form/Variable.php" role="php" />
-   <file baseinstalldir="/" md5sum="f31919f8170ad612818794fb9f06148e" name="lib/Horde/Form.php" role="php" />
+   <file baseinstalldir="/" md5sum="b114b5d236b62f54708e7aff50374830" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="8a9f0fe238650e85db8d874a17ab60d4" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="e0b62ec000d8a4f34a9704caaf6d5045" name="locale/bg/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="2f371746e1f1d9e5e8fda2ae35076e26" name="locale/bs/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -58,8 +57,8 @@
    <file baseinstalldir="/" md5sum="f82f4716c723eb92793ab616ec4158a0" name="locale/cs/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="fe8b18672b38cd1636c645602605bfef" name="locale/da/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="c518927088ddf851201e1a7c494dc940" name="locale/da/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="a48a47c3e6be94d8e7e8cfc1f1ef46f2" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
-   <file baseinstalldir="/" md5sum="e7c53364afb15001f8b7b1a1bc567151" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
+   <file baseinstalldir="/" md5sum="731a061a53e686b753d9ba871c828b99" name="locale/de/LC_MESSAGES/Horde_Form.mo" role="data" />
+   <file baseinstalldir="/" md5sum="f64aadf56e760b33553308b779509c8e" name="locale/de/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="adb3a88fedd5bebe72346c05ca4c6f69" name="locale/el/LC_MESSAGES/Horde_Form.mo" role="data" />
    <file baseinstalldir="/" md5sum="ffa8bfd9962e910b7c13deb63a343031" name="locale/el/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="72944b373715f42cf25db6e1ed752e94" name="locale/es/LC_MESSAGES/Horde_Form.mo" role="data" />
@@ -123,7 +122,7 @@
    <file baseinstalldir="/" md5sum="0c48360d42acb92957e43af4341a71b8" name="locale/uk/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="ac8d1f3f0a5d83e65694bedd0b8c97dc" name="locale/zh_CN/LC_MESSAGES/Horde_Form.po" role="data" />
    <file baseinstalldir="/" md5sum="31671b0f779c5f3df4f6eed3fb8e1a2b" name="locale/zh_TW/LC_MESSAGES/Horde_Form.po" role="data" />
-   <file baseinstalldir="/" md5sum="b3e1419c6b1035120621830093e77f24" name="locale/Horde_Form.pot" role="data" />
+   <file baseinstalldir="/" md5sum="babc127509f09127a69dbcec613d2657" name="locale/Horde_Form.pot" role="data" />
    <file baseinstalldir="/" md5sum="00f3380cab8e4a20aa23ba5e00d437f7" name="test/Horde_Form_Type_address.phpt" role="test" />
    <file baseinstalldir="/" md5sum="62a455f9efff6d6461a87c5654316973" name="test/Horde_Form_Type_email.phpt" role="test" />
   </dir>
@@ -834,6 +833,21 @@ Converted to package.xml 2.0 for pear.horde.org
    <notes>
 * [mjr] Fix handling of incomplete date arrays (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
 * [mjr] Fix bug when using multiple sections (Neal Thomas Oakey &lt;oakey@b1-systems.de&gt;).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.15</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-09-06</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Catch errors when checking one-time form tokens.
    </notes>
   </release>
  </changelog>
