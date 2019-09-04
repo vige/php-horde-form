@@ -1,6 +1,7 @@
 php-horde-form (2.0.19-1) UNRELEASED; urgency=medium
 
   * New upstream version 2.0.19
+  * Bump debhelper from old 11 to 12.
 
  -- Mathieu Parent <sathieu@debian.org>  Wed, 04 Sep 2019 20:45:41 +0200
 
