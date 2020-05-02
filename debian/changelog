@@ -1,5 +1,7 @@
 php-horde-form (2.0.19-2) UNRELEASED; urgency=medium
 
+  * Re-upload to Debian. (Closes: #959295).
+
   [ Mathieu Parent ]
   * Remove patch for CVE-2019-9858, applied
   * Re-release 2.0.19-1
