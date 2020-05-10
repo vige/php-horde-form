@@ -1,12 +1,27 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Horde Form API
 Upstream-Contact: Horde <horde@lists.horde.org>
-		  Horde development <dev@lists.horde.org>
+                  Horde development <dev@lists.horde.org>
 Source: http://pear.horde.org/
 
 Files: *
-Copyright: 2001-2012 Horde LLC (http://www.horde.org/)
-	   2001-2007 Robert E. Coyle <robertecoyle@hotmail.com>
+Copyright: 2001-2017, Horde LLC (http://www.horde.org/)
+           2002-2017, Horde LLC (http://www.horde.org/)
+           2003-2017, Horde LLC (http://www.horde.org/)
+           2004-2013, Horde LLC (http://www.horde.org/)
+           2006-2017, Horde LLC (http://www.horde.org/)
+           2010-2013, Horde LLC (http://www.horde.org/)
+           2010-2017, Horde LLC (http://www.horde.org/)
+           2013, Horde LLC (http://www.horde.org/)
+           2014, Horde LLC (http://www.horde.org/)
+           2001-2007, Robert E. Coyle <robertecoyle@hotmail.com>
+License: LGPL-2.1
+
+Files: debian/*
+Copyright: 2011-2019, Mathieu Parent <math.parent@gmail.com>
+           2020, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+License: LGPL-2.1+
+
 License: LGPL-2.1
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -25,8 +40,6 @@ License: LGPL-2.1
  License version 2.1 can be found in the file
  `/usr/share/common-licenses/LGPL-2.1'.
 
-Files: debian/*
-Copyright: 2011-2012 Mathieu Parent <math.parent@gmail.com>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
