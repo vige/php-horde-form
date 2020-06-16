@@ -1,3 +1,9 @@
+php-horde-form (2.0.20-1) UNRELEASED; urgency=medium
+
+  * New upstream version 2.0.20
+
+ -- Juri Grabowski <debian@jugra.de>  Tue, 16 Jun 2020 04:34:52 +0000
+
 php-horde-form (2.0.19-2) unstable; urgency=medium
 
   * Re-upload to Debian. (Closes: #959295).
