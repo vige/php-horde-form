@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.10.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.10.9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_Form</name>
  <channel>pear.horde.org</channel>
  <summary>Form library</summary>
- <description>The Horde_Form package provides form rendering, validation, and other functionality for the Horde Application Framework.</description>
+ <description>A library that provides form rendering, validation, and other functionality.</description>
  <lead>
   <name>Jan Schneider</name>
   <user>jan</user>
@@ -16,10 +16,10 @@
   <email>chuck@horde.org</email>
   <active>no</active>
  </lead>
- <date>2019-01-06</date>
- <time>14:18:26</time>
+ <date>2020-03-08</date>
+ <time>17:49:27</time>
  <version>
-  <release>2.0.19</release>
+  <release>2.0.20</release>
   <api>1.1.0</api>
  </version>
  <stability>
@@ -28,11 +28,11 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [mjr] SECURITY: Prevent RCE vulnerability due to potential directory traversal in Image uploads (An independent security researcher has reported this vulnerability to SecuriTeam Secure Disclosure program).
+* [mjr] SECURITY: Prevent ability to specify temporary filename (CVE-2020-8866, Reported By: Andrea Cardaci working with Trend Micro Zero Day Initiative).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <file baseinstalldir="/" md5sum="5776bcc2673fd588c8dd38b098b4e626" name="doc/Horde/Form/CHANGES" role="doc" />
+   <file baseinstalldir="/" md5sum="d7ba015f9421c0378619b5d65ad35ed3" name="doc/Horde/Form/CHANGES" role="doc" />
    <file baseinstalldir="/" md5sum="321bf41f280cf805086dd5a720b37785" name="doc/Horde/Form/COPYING" role="doc" />
    <file baseinstalldir="/" md5sum="76e048d5c24d54d86acbc1e9d4587449" name="lib/Horde/Form/Action/ConditionalEnable.php" role="php" />
    <file baseinstalldir="/" md5sum="fd88a6a861d34770e2a0b7325306887e" name="lib/Horde/Form/Action/ConditionalSetValue.php" role="php" />
@@ -47,7 +47,7 @@
    <file baseinstalldir="/" md5sum="f7b34c835df4f1976ebb0632e098bd62" name="lib/Horde/Form/Translation.php" role="php">
     <tasks:replace from="@data_dir@" to="data_dir" type="pear-config" />
    </file>
-   <file baseinstalldir="/" md5sum="bbf881afcf84f6c0eff92c0c9f5713dd" name="lib/Horde/Form/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="14f2c3ba889353c631c760eae7122516" name="lib/Horde/Form/Type.php" role="php" />
    <file baseinstalldir="/" md5sum="7190baf67f72e6ebdbfb105c3f450cf2" name="lib/Horde/Form/Variable.php" role="php" />
    <file baseinstalldir="/" md5sum="e2e8a9d12b72176de75b7f807274619e" name="lib/Horde/Form.php" role="php" />
    <file baseinstalldir="/" md5sum="7c71a697c12d2cce67806f4a649fb26d" name="locale/ar/LC_MESSAGES/Horde_Form.po" role="data" />
@@ -909,6 +909,21 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [mjr] SECURITY: Prevent RCE vulnerability due to potential directory traversal in Image uploads (An independent security researcher has reported this vulnerability to SecuriTeam Secure Disclosure program).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>2.0.20</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2020-03-08</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [mjr] SECURITY: Prevent ability to specify temporary filename (CVE-2020-8866, Reported By: Andrea Cardaci working with Trend Micro Zero Day Initiative).
    </notes>
   </release>
  </changelog>
