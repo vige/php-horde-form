@@ -1,8 +1,14 @@
 php-horde-form (2.0.20-1) UNRELEASED; urgency=medium
 
+  [ Juri Grabowski ]
   * New upstream version 2.0.20
   * SECURITY: Prevent ability to specify temporary filename (CVE-2020-8866)
-    (Closes: #955020) 
+    (Closes: #955020).
+
+  [ Mike Gabriel ]
+  * d/salsa-ci.yml: Add file with salsa-ci.yml and pipeline-jobs.yml calls.
+  * d/control: Bump DH compat level to version 13.
+  * d/control: Add to Uploaders: Juri Grabowski.
 
  -- Juri Grabowski <debian@jugra.de>  Tue, 16 Jun 2020 04:34:52 +0000
 
