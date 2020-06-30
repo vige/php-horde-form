@@ -1,4 +1,4 @@
-php-horde-form (2.0.20-1) UNRELEASED; urgency=medium
+php-horde-form (2.0.20-1) unstable; urgency=medium
 
   [ Juri Grabowski ]
   * New upstream version 2.0.20
@@ -10,7 +10,7 @@ php-horde-form (2.0.20-1) UNRELEASED; urgency=medium
   * d/control: Bump DH compat level to version 13.
   * d/control: Add to Uploaders: Juri Grabowski.
 
- -- Juri Grabowski <debian@jugra.de>  Tue, 16 Jun 2020 04:34:52 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 30 Jun 2020 10:36:20 +0200
 
 php-horde-form (2.0.19-2) unstable; urgency=medium
 
