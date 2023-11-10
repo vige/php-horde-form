@@ -1,3 +1,14 @@
+php-horde-form (2.0.20-3~1.gbp18a319) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @18a3195390ade30241b14fefe837f2267fb7d13d **
+
+  [ Mike Gabriel ]
+  * d/control: Bump Standards-Version: to 4.6.0. No changes needed.
+  * d/watch: Switch to format version 4.
+  * d/patches: Add 1001_use-new-style-constructors.patch. Use new style constructors.
+
+ -- Ville Nummela <ville@nummela.org>  Fri, 10 Nov 2023 12:51:21 +0200
+
 php-horde-form (2.0.20-2) unstable; urgency=medium
 
   [ Juri Grabowski ]

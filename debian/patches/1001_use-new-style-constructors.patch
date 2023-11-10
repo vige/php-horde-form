@@ -1,9 +1,18 @@
-Description: Use new PHP 7.x style constructors.
-Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+From: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Date: Fri, 10 Nov 2023 12:38:57 +0200
+Subject: Use new PHP 7.x style constructors.
 
+---
+ Horde_Form-2.0.20/lib/Horde/Form/Action.php   | 2 +-
+ Horde_Form-2.0.20/lib/Horde/Form/Renderer.php | 2 +-
+ Horde_Form-2.0.20/lib/Horde/Form/Variable.php | 4 ++--
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/Horde_Form-2.0.20/lib/Horde/Form/Action.php b/Horde_Form-2.0.20/lib/Horde/Form/Action.php
+index 5a9171d..d58528b 100644
 --- a/Horde_Form-2.0.20/lib/Horde/Form/Action.php
 +++ b/Horde_Form-2.0.20/lib/Horde/Form/Action.php
-@@ -27,7 +27,7 @@
+@@ -27,7 +27,7 @@ class Horde_Form_Action {
      var $_params;
      var $_trigger = null;
  
@@ -12,9 +21,11 @@ Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
      {
          $this->_params = $params;
          $this->_id = md5(mt_rand());
+diff --git a/Horde_Form-2.0.20/lib/Horde/Form/Renderer.php b/Horde_Form-2.0.20/lib/Horde/Form/Renderer.php
+index 55e054b..100f0a0 100644
 --- a/Horde_Form-2.0.20/lib/Horde/Form/Renderer.php
 +++ b/Horde_Form-2.0.20/lib/Horde/Form/Renderer.php
-@@ -60,7 +60,7 @@
+@@ -60,7 +60,7 @@ class Horde_Form_Renderer {
       *                         parameter to Horde_Core_Ui_VarRenderer::factory().
       *                       - 'encode_title': @see $_encodeTitle
       */
@@ -23,9 +34,11 @@ Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
      {
          global $registry;
          if (isset($registry) && is_a($registry, 'Registry')) {
+diff --git a/Horde_Form-2.0.20/lib/Horde/Form/Variable.php b/Horde_Form-2.0.20/lib/Horde/Form/Variable.php
+index 0e6c5dc..d6ac1e7 100644
 --- a/Horde_Form-2.0.20/lib/Horde/Form/Variable.php
 +++ b/Horde_Form-2.0.20/lib/Horde/Form/Variable.php
-@@ -140,8 +140,8 @@
+@@ -140,8 +140,8 @@ class Horde_Form_Variable {
       * @param string $description    A long description of the variable's
       *                               purpose, special instructions, etc.
       */
