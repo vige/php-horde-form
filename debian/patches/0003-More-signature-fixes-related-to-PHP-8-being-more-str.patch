@@ -1,0 +1,35 @@
+From: Ralf Lang <lang@b1-systems.de>
+Date: Sun, 15 May 2022 18:19:30 +0000
+Subject: More signature fixes related to PHP 8 being more strict
+
+---
+ Horde_Form-2.0.20/lib/Horde/Form/Action/updatefield.php | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/Horde_Form-2.0.20/lib/Horde/Form/Action/updatefield.php b/Horde_Form-2.0.20/lib/Horde/Form/Action/updatefield.php
+index db84e3f..a29bfe6 100644
+--- a/Horde_Form-2.0.20/lib/Horde/Form/Action/updatefield.php
++++ b/Horde_Form-2.0.20/lib/Horde/Form/Action/updatefield.php
+@@ -26,19 +26,19 @@ class Horde_Form_Action_updatefield extends Horde_Form_Action {
+ 
+     var $_trigger = array('onchange', 'onload', 'onkeyup');
+ 
+-    function getActionScript(&$form, &$renderer, $varname)
++    function getActionScript($form, $renderer, $varname)
+     {
+         return 'updateField' . $this->id() . '();';
+     }
+ 
+-    function setValues(&$vars, $sourceVal, $arrayVal = false)
++    function setValues(&$vars, $sourceVal, $index = null, $arrayVal = false)
+     {
+     }
+ 
+     function printJavaScript()
+     {
+         $pieces = explode('%s', $this->_params['format']);
+-        $fields = $this->_params['fields'];
++        $fields = $this->_params['fields'] ?? [];
+         $val_first = (substr($this->_params['format'], 0, 2) == '%s');
+         if ($val_first) {
+             array_shift($pieces);

@@ -1,2 +1,3 @@
 1001_use-new-style-constructors.patch
 0002-PHP-8.1-compatible-method-signatures-PHP-5-construct.patch
+0003-More-signature-fixes-related-to-PHP-8-being-more-str.patch
